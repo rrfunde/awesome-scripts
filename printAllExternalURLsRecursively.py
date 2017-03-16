@@ -2,7 +2,7 @@ import httplib2
 from BeautifulSoup import BeautifulSoup, SoupStrainer
 
 http = httplib2.Http()
-url = 'https://pay.rakuten.co.jp/campaign/invitation/invite.html'
+url = #PUT_URL_HERE
 
 def fetchAndPrint(url):
     status, response = http.request(url)
